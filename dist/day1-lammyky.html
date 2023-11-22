@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD GEOGRAPHIC INFORMATION</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="font-bebasneue bg-gradient-to-b from-green-200 to-blue-500 h-screen px-6 flex flex-col justify-center items-center w-full">
+    <div class="flex flex-col items-center flex-wrap gap-4 mb-9 mt-16">
+        <h1 class= "text-center flex-wrap text-7xl">WORLD GEOGRAPHIC INFORMATION</h1>
+        <div id="city" class="text-xl">City: </div>
+    </div>
+
+    <div class="flex flex-wrap justify-evenly gap-4 w-full">
+        <div class="w-48 flex flex-col items-center justify-center flex-wrap gap-5 bg-white rounded-full p-8 shadow-lg hover:scale-110 hover:cursor-pointer">
+            <h2 class="text-2xl">Timezone</h2>
+            <div id="timezone"></div>
+        </div>
+    
+        <div class="w-48 flex flex-col items-center  flex-wrap gap-5 bg-white rounded-full p-8 shadow-lg hover:scale-110 hover:cursor-pointer">
+            <h2 class="text-2xl">Latitude</h2>
+            <div id="lat"></div>
+        </div>
+    
+        <div class="w-48 flex flex-col items-center  flex-wrap gap-5 bg-white rounded-full p-8 shadow-lg hover:scale-110 hover:cursor-pointer">
+            <h2 class="text-2xl">Longitude</h2>
+            <div id="lon"></div>
+        </div>
+    </div>
+    <script type="module" src="./day1-lammyky.js"></script>
+</body>
+</html>
